@@ -8,9 +8,8 @@
    `.toggle()` method that you can use to toggle CSS classes on an element. 
    When this is working, you will see the background of the clicked cell in 
    yellow.
-1. Create a second function and use the addEventListener() method to listen 
-   for "click" events on the `<table>` element in the page. In this 
-   function, update the `.innerHTML` property of "Selected Cell Value" 
+1. Modify the function so that it 
+   updates the `.innerHTML` property of "Selected Cell Value" 
    region of the page with the `.innerHTML` of clicked cell ( the `.target` 
    property of the event object `e` passed to the function). When this is 
    working, you should also see the value of the cell you clicked on updated 
